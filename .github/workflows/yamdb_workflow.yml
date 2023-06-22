@@ -56,7 +56,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: bimsuch/final:latest
+          tags: bimsuch/web:latest
 
   deploy:
     runs-on: ubuntu-latest
