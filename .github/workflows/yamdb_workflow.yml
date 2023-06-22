@@ -55,7 +55,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2 
         with:
-          context: ./api_yamdb/
+          context: ./api_yambd/
           push: true
           tags: bimsuch/final:latest
 
